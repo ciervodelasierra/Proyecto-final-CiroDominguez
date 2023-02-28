@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Javier Mills - Contacto</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<script src="https://kit.fontawesome.com/eeea046e64.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<div id="menu-hamburguesa">
+			  <span id="linea-1"></span>
+			  <span id="linea-2"></span>
+			  <span id="linea-3"></span>
+			</div>
+			<ul id ="menu-desplegable" class="menu-desplegable">
+			  <li><a href="inicio.html">Curriculum Vitae</a></li>
+			  <li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<aside>
+		<img src='https://randomuser.me/api/portraits/men/19.jpg' class='center'>
+		<h1 style='text-align:center'> Javier Mills </h1>
+		<p class='adentro'><i class="fa-sharp fa-solid fa-cake-candles"></i> Edad: 26 </p>
+		<p class='adentro'><i class="fa-sharp fa-solid fa-envelope"></i> Mail: <a href="mailto:javier.mills@example.com">javier.mills@example.com</a> </p>
+		<p class='adentro'><i class="fa-sharp fa-solid fa-phone"></i> Celular: (54) 735-3389</p>
+		<br>
+		<h2 class='h2adentro'>Idiomas</h2>
+		<ul class='adentro'>
+			<li>Español: Nativo</li>
+			<li>Ingles: Profesional B2</li>
+			<li>Portugués: Basico</li>
+		</ul>
+		<br>
+		<h2 class='h2adentro'>Competencias</h2>
+		<ul class='adentro'>
+			<li>PowerBI</li>
+			<li>Visual R</li>
+			<li>Microsoft Office</li>
+			<li>DataVisualizer</li>
+		</ul>
+	</aside>
+	<main>
+		<section>
+				<form>
+					<label for="nombre">Nombre:</label><br>
+				  <input type="text" id="nombre" name="nombre"><br>
+				  <label for="email">Email:</label><br>
+				  <input type="text" id="email" name="email"><br>
+				  <label for="asunto">Asunto:</label><br>
+				  <input type="text" id="asunto" name="asunto"><br>
+				  <label for="contenido"> Contenido del mail:</label><br>
+				  <textarea id= 'contenido' name="contenido" cols="70" rows="10"></textarea><br>
+				  
+				  	<button id="botoninput">Enviar</button>
+				</form>
+				
+		</section>
+	</main>
+	<script src='main.js'></script>
+</body>
+</html>

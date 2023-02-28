@@ -1,0 +1,175 @@
+
+
+html,body {
+	font-family:Raleway;
+}
+
+p {
+			color: black;
+			
+		}
+nav {
+	display:flex;
+	align-items:center;
+	padding-left:40px;
+	min-height:8vh;
+	background-color:#294574;
+	color:#f3f3f3;
+}
+
+#menu-hamburguesa {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  margin-right:300px;
+ 
+}
+.menu-desplegable {
+  display: none;
+
+}
+#linea-1,
+#linea-2,
+#linea-3 {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+
+}
+
+#linea-1 {
+  top: 0;
+}
+
+#linea-2 {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#linea-3 {
+  bottom: 0;
+}
+.rotar-1 {
+  transform: rotate(45deg);
+}
+.rotar-2 {
+  transform: rotate(-45deg);
+}
+.ocultar {
+  opacity: 0;
+}
+.mostrar {
+	display:flex;
+	padding:0px;
+
+	
+}
+.mostrar li {
+	padding:0 40px;
+	list-style-type:none;
+	transition:0.3s;	
+}
+.mostrar li a {
+	text-decoration: none;
+	font-size:1.8rem;
+	color:#f3f3f3;
+	font-weight:600;
+}
+.mostrar li:hover {
+	background-color:#2E4053;
+}
+button {
+	float:right;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+h1 {
+	font-size:30px;
+	
+	margin:10px;
+	color:#2471A3;
+}
+h2 {
+	font-size:20px;
+	
+	
+}
+
+
+article{
+	border:1px solid black;
+	box-shadow:0 0 10px 1px rgba(0,0,0,0.3);
+	padding:8px;
+}
+
+h5 {
+	margin-top:-15px;
+	margin-bottom:-8px;
+	text-align:right;
+	color:black;
+}
+section {
+	float:left;
+	width:70%;
+	padding:10px;
+
+	
+}
+section form {
+	padding:50px;
+	background-color: #2E4053;
+	color:white;
+	font-size: 20px
+
+}
+
+aside {
+
+	margin-top:10px;
+	display:inline-block;
+	width:20%;
+	height:940px;
+	background:#2E4053 ;
+	float:left;
+	padding:10px;
+
+}
+aside a {
+	text-decoration: none;
+	color:white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.adentro {
+	color:white;
+}
+.h2adentro {
+	text-align:center;
+	margin-left:0px;
+	color:#2471A3;
+}
